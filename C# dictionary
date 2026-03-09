@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //3 öğrencinin numara ve adını bir Dictionary’e ekleyip hepsini yazdıran C# kodunuz yazınız.
+
+
+            Dictionary<int, string> ogrenciler = new Dictionary<int, string>();
+
+           
+            ogrenciler.Add(101, "Ahmet Yılmaz");
+
+            ogrenciler.Add(102, "Ayşe Demir");
+
+            ogrenciler.Add(103, "Mehmet Kaya");
+
+            Console.WriteLine("--- Öğrenci Listesi ---");
+
+            
+            foreach (var ogrenci in ogrenciler)
+            {
+                Console.WriteLine($"Numara: {ogrenci.Key} - Ad Soyad: {ogrenci.Value}");
+            }
+            Console.ReadLine();
+            Console.ReadKey();
+
+        }
+    }
+}
