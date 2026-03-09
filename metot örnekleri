@@ -1,0 +1,93 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // Girilen sayının karesini yazdıran bir metot yazın.
+
+            //Console.Write("Bir sayı giriniz: ");
+            //int sayi = Convert.ToInt32(Console.ReadLine());
+            //KaresiniYazdir(sayi);
+
+            //Bir sayıyı ref ile 2 katına çıkaran metot yazın.
+            //int benimSayim = 10;
+
+            //Console.WriteLine("Metot Öncesi Değer: " + benimSayim);
+
+
+            //IkiKatinaCikar(ref benimSayim);
+
+
+            //Console.WriteLine("Metot Sonrası Değer: " + benimSayim);
+
+            //Bir dikdörtgenin alan ve çevresini out ile döndüren metot yazın. 
+
+            //int kisaKenar = 5;
+            //int uzunKenar = 10;
+
+
+            //int alanSonucu, cevreSonucu;
+
+
+            //HesaplaAlanVeCevre(kisaKenar, uzunKenar, out alanSonucu, out cevreSonucu);
+
+            //Console.WriteLine($"Kısa Kenar: {kisaKenar}, Uzun Kenar: {uzunKenar}");
+            //Console.WriteLine("-------------------------------------------");
+            //Console.WriteLine("Dikdörtgenin Alanı: " + alanSonucu);
+            //Console.WriteLine("Dikdörtgenin Çevresi: " + cevreSonucu);
+
+
+            //n sayısının toplamını (1 + 2 + … + n) recursive metotla hesaplayın.
+            //Console.Write("Lütfen n sayısını giriniz: ");
+            //int n = Convert.ToInt32(Console.ReadLine());
+
+            
+            //int sonuc = ToplamHesapla(n);
+
+            //Console.WriteLine($"1'den {n}'e kadar olan sayıların toplamı: {sonuc}");
+
+        }
+
+
+
+        //static void KaresiniYazdir(int sayi)
+        //{
+        //  int kare = sayi * sayi;
+        //Console.WriteLine($"{sayi} sayısının karesi: {kare}");
+        //}
+
+        //static void IkiKatinaCikar(ref int sayi)
+        //{
+        //  sayi = sayi * 2;
+
+        //}
+
+
+        //static void HesaplaAlanVeCevre(int a, int b, out int alan, out int cevre)
+        //{
+        //  alan = a * b;          
+        //cevre = 2 * (a + b);   
+        //}
+
+
+        //static int ToplamHesapla(int n)
+        //{
+            
+          //  if (n == 1)
+            //{
+              //  return 1;
+            //}
+
+            
+         //   return n + ToplamHesapla(n - 1);
+        //}
+    }
+}
